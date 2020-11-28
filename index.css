@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.686),
+      rgba(0, 0, 0, 0.227)
+    ),
+    url('./img/relax.jpg') center center / cover no-repeat;
+  height: 100vh;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  padding: 1.5rem;
+  justify-content: flex-start;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+}
+
+.navbar ul li:last-child {
+  margin-left: auto;
+  color: white;
+}
+
+.landing {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  align-content: center;
+  justify-content: left;
+  color: white;
+}
+
+.landing-content {
+  margin-left: 3rem;
+}
+
+.landing-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+.landing-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.landing-content button {
+  padding: 0.8rem;
+}
