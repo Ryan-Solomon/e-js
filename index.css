@@ -65,3 +65,8 @@ body {
 .landing-content button {
   padding: 0.8rem;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
